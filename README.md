@@ -1,4 +1,5 @@
 # devops-workshop-broken-pipeline
+![CI Pipeline](https://github.com/JvMapoteEdu/devops-workshop-broken-pipeline/actions/workflows/ci.yml/badge.svg)
 # 🚀 DevOps Workshop – Broken CI/CD Pipeline Challenge
 
 Welcome to the DevOps hands-on activity!
