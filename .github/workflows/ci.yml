@@ -29,5 +29,8 @@ jobs:
       - name: Run lint
         run: npm run lint
 
+      - name: Extra check
+        run: npm run testtt
+
       - name: Deploy
         run: echo "Deploying application..."
