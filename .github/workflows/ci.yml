@@ -15,22 +15,19 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 14
-
-      - name: Run tests
-        run: npm test
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
+
+      - name: Run tests
+        run: npm test
 
       - name: Build project
         run: echo "Building project..."
 
       - name: Run lint
         run: npm run lint
-
-      - name: Extra check
-        run: npm run testtt
 
       - name: Deploy
         run: echo "Deploying application..."
